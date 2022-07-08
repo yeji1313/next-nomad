@@ -1,0 +1,26 @@
+.link {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  color: $primary-color;
+}
+
+.num {
+  display: flex;
+  padding: 1rem;
+
+  button {
+    background-color: green;
+  }
+}
+
+.router {
+  display: flex;
+  flex-direction: column;
+  font-size: 1.1rem;
+  color: rgb(189, 89, 122);
+}
+
+.size {
+  font-size: $big;
+}
