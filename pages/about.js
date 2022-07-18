@@ -1,4 +1,5 @@
 import { useRouter } from 'next/router';
+import Seo from '../components/Seo';
 
 function About(props) {
   const router = useRouter();
@@ -10,6 +11,7 @@ function About(props) {
 
   return (
     <>
+      <Seo title="about" />
       <h1>This is about</h1>
       <button onClick={handleRoute}>Go to dynamic page</button>
     </>
